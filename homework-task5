@@ -1,0 +1,53 @@
+[200~<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	        <title>Document</title>
+		</head>
+		<body>
+		    <form action="/zuoye" method="post">
+		           <div class="name">
+			             <label>姓名：</label>
+				               <input type="text" name="name" placeholder="用户名"> 
+					              </div>
+						             <div class="password">
+							               <label>密码：</label>
+								                 <input type="password" name="password">
+										        </div>
+											       <div class="sex">
+											                  <label>性别：</label>
+													             <input type="radio" name="sex" value="male">男
+														                <input type="radio" name="sex" value="female">女
+																        </div>
+																	        <div class="sexual orientation">
+																		           <label>取向：</label>
+																			              <input type="radio" name="sexual orientation" value="male">男
+																				                 <input type="radio" name="sexual orientation" value="female">女
+																						        </div>
+																							       <div class="hobby">
+																							                  <label>爱好：</label>
+																									             <input type="checkbox" name="hobby" value="dota">dota
+																										                <input type="checkbox" name="hobby" value="travel">旅游
+																												           <input type="checkbox" name="hobby" value="pet">宠物
+																													          </div>
+																														         <div class="textarea">
+																															            <label>评论:</label>
+																																               <textarea name="opinion" id="opinion" cols="30" rows="10">
+																																	                      ddd
+																																			                 </textarea>
+																																					        </div>
+																																						       <div class="car">
+																																						                  <label>我的car：</label>
+																																								                 <select name="my car">
+																																										                    <option value="sabo" selected>萨博</option>
+																																												                       <option value="dazhong">大众</option>
+																																														                          <option value="benchi">奔驰</option>
+																																																	                     <option value="baoma">宝马</option>
+																																																			                    </select>
+																																																					                   <input type="submit" value="提交">
+																																																							          </div>
+																																																								      </form>
+																																																								      </body>
+																																																								      </html>
